@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Phili\Documents\Elektronik_Projekte\WinkelanzeigeHolmer\WinkelanzeigeHolmer\WinkelanzeigeHolmer.kicad_sch</source>
+    <date>2026-11-20T21:46:31</date>
+    <tool>Eeschema 10.0.8</tool>
+    <textvar name="PCB_REV">1.0</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Hubwerksanzeige Holmer</title>
+        <company>Philipp Lunz</company>
+        <rev>1.0</rev>
+        <date>2026-11-18</date>
+        <source>WinkelanzeigeHolmer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_Every</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</datasheet>
+      <description>Arduino Nano Every</description>
+      <fields>
+        <field name="Sockel">2 x 15pol. Stiftleise</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</field>
+        <field name="Description">Arduino Nano Every</field>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_Every" description="Arduino Nano Every"/>
+      <property name="Sockel" value="2 x 15pol. Stiftleise"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB UPDI AATMega4809 AVR"/>
+      <property name="ki_fp_filters" value="Arduino*Nano*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92c0fef5-958a-4cd0-82dd-487c8d3d8034</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="30"/>
+            <pin num="4"/>
+            <pin num="29"/>
+            <pin num="17"/>
+            <pin num="27"/>
+            <pin num="3"/>
+            <pin num="28"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>100 µF / 50V</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61050aef-059f-46d2-a577-2ff95489b94c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100 nF / 50 V</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85899efb-30b9-4cf9-bd7c-b9587aa357f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be94902d-a841-4df6-98c9-1bc0bdadb06f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a903c0-3486-4bf2-8e35-1bbe6b90479c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100 nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eac73bce-00e6-4f3a-a646-5b3f6154da28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100 nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4fc1d27-7f42-42bb-9f58-db4e94cfcf9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description">40V 1A Schottky Barrier Rectifier Diode, DO-41</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*DO?41*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ead1681-62e7-424f-aaf4-4b83c860f607</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>1,5KE24A</value>
+      <footprint>Diode_THT:D_DO-201AD_P12.70mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf</datasheet>
+      <description>26V, 1850W TVS unidirectional diode, DSN1608-2</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P12.70mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf</field>
+        <field name="Description">26V, 1850W TVS unidirectional diode, DSN1608-2</field>
+      </fields>
+      <libsource lib="Diode" part="PTVS26VZ1USK" description="26V, 1850W TVS unidirectional diode, DSN1608-2"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="TVS diode"/>
+      <property name="ki_fp_filters" value="*DSN1608?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4580cbab-2a24-4015-8bd9-eafd838c8991</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>BZX55C5V1 5,1V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ef1c48-01b3-4ec8-a072-6200c2f42a62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>BZX55C5V1 5,1V</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f2bab57-f8a3-41b6-92ad-6be4a705508b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Phoenix MKDS 1,5/2-5,08</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34472d95-454c-4d97-9657-ad711c73b23f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>183c57c7-d52a-4b6c-bdf7-bd22099a7782</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e7dd522-2730-4e12-9517-c0787968caf7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x07_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x07, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x07, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Pin" description="Generic connector, single row, 01x07, script generated"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd098733-2f82-4c71-95dd-6d241e2262a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>250 0,1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44ddb565-1020-4576-b7eb-441d87bd5b09</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>2,2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e8c7f1b-0485-45f6-b81b-b2bad1eed6b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>250 0,1%</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85ac0915-0749-4765-b4cf-01a1c242c8c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>2,2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6e1ea72-eb9d-4c3d-8b16-6820e97a9954</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4604307d-7895-406b-a50b-d462392225ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba9d76b9-f70f-44da-8a65-b82d33b789d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>DTS-61K</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_PUSH_6mm_H4.3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b3d1981-9a95-4a16-abcc-28177b0a837c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>DTS-61K</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H4.3mm</footprint>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_PUSH_6mm_H4.3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aa53083-35ef-4048-bb0e-891de1f6db69</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>R-78E5.0-0.5</value>
+      <footprint>Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</datasheet>
+      <description>500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <fields>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</field>
+        <field name="Description">500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</field>
+      </fields>
+      <libsource lib="Converter_DCDC" part="R-78E5.0-0.5" description="500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="dc-dc recom Step-Down DC/DC-Regulator"/>
+      <property name="ki_fp_filters" value="Converter*DCDC*RECOM*R*78E*0.5*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de8e7b86-d88c-4bb4-a6ce-ad8f48a6e8e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>CD4050BE</value>
+      <footprint>Package_DIP:CERDIP-16_W7.62mm_SideBrazed_LongPads_Socket</footprint>
+      <datasheet>http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf</datasheet>
+      <description>Hex Buffer</description>
+      <fields>
+        <field name="Footprint">Package_DIP:CERDIP-16_W7.62mm_SideBrazed_LongPads_Socket</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf</field>
+        <field name="Description">Hex Buffer</field>
+      </fields>
+      <libsource lib="4xxx" part="4050" description="Hex Buffer"/>
+      <property name="Sheetname" value="WinkelanzeigeHolmer"/>
+      <property name="Sheetfile" value="WinkelanzeigeHolmer.kicad_sch"/>
+      <property name="ki_keywords" value="CMOS BUFFER"/>
+      <property name="ki_fp_filters" value="DIP?16*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eae9ef92-719f-4c92-bde1-80dab2de92d3 d3026dd5-5541-407c-9592-6ffac61cb86b 1846d779-81a7-472f-ac83-5ec550c2a927 2f2312a4-28e0-4126-b542-916e06abe5c0 a5b98d0a-e0fc-4f80-b253-00046430626b c27f4f3a-c564-457d-b466-51ee0f743afd 091759ce-aa43-477f-9aa3-b3e17df61b64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+        <unit name="E">
+          <pins>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+        <unit name="F">
+          <pins>
+            <pin num="14"/>
+            <pin num="15"/>
+          </pins>
+        </unit>
+        <unit name="G">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4050">
+      <description>Hex Buffer</description>
+      <docs>http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4050</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf</field>
+        <field name="Description">Hex Buffer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="14" name="" type="input"/>
+        <pin num="15" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Pin">
+      <description>Generic connector, single row, 01x07, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x07, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_DCDC" part="R-78E5.0-0.5">
+      <description>500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <docs>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*RECOM*R*78E*0.5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78E5.0-0.5</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</field>
+        <field name="Description">500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Description">40V 1A Schottky Barrier Rectifier Diode, DO-41</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="PTVS26VZ1USK">
+      <description>26V, 1850W TVS unidirectional diode, DSN1608-2</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf</docs>
+      <footprints>
+        <fp>*DSN1608?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PTVS26VZ1USK</field>
+        <field name="Footprint">Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PTVS26VZ1USK.pdf</field>
+        <field name="Description">26V, 1850W TVS unidirectional diode, DSN1608-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_Every">
+      <description>Arduino Nano Every</description>
+      <docs>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A1</field>
+        <field name="Value">Arduino_Nano_Every</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</field>
+        <field name="Description">Arduino Nano Every</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX1" type="bidirectional"/>
+        <pin num="2" name="RX1" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="MOSI" type="bidirectional"/>
+        <pin num="15" name="MISO" type="bidirectional"/>
+        <pin num="16" name="SCK" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="SDA/A4" type="bidirectional"/>
+        <pin num="24" name="SCL/A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="passive"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>${KICAD10_SYMBOL_DIR}/4xxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Converter_DCDC">
+      <uri>${KICAD10_SYMBOL_DIR}/Converter_DCDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>${KICAD10_SYMBOL_DIR}/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="A1" pin="17" pinfunction="3V3_17" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="VCC_1" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="A1" pin="27" pinfunction="+5V_27" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT_3" pintype="power_out"/>
+    </net>
+    <net code="3" name="A1" class="Default">
+      <node ref="A1" pin="20" pinfunction="A1_20" pintype="bidirectional"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="AO" class="Default">
+      <node ref="A1" pin="19" pinfunction="A0_19" pintype="bidirectional"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="D2" class="Default">
+      <node ref="A1" pin="5" pinfunction="D2_5" pintype="bidirectional"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="D3" class="Default">
+      <node ref="A1" pin="6" pinfunction="D3_6" pintype="bidirectional"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="D8" class="Default">
+      <node ref="A1" pin="11" pinfunction="D8_11" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pintype="input"/>
+    </net>
+    <net code="8" name="D9" class="Default">
+      <node ref="A1" pin="12" pinfunction="D9_12" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pintype="input"/>
+    </net>
+    <net code="9" name="D10" class="Default">
+      <node ref="A1" pin="13" pinfunction="D10_13" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pintype="input"/>
+    </net>
+    <net code="10" name="GND" class="Default">
+      <node ref="A1" pin="29" pinfunction="GND_29" pintype="passive"/>
+      <node ref="A1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VSS_8" pintype="power_in"/>
+    </net>
+    <net code="11" name="MOSI" class="Default">
+      <node ref="A1" pin="14" pinfunction="MOSI_14" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J2-Pin_2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J3-Pin_2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J4-Pin_1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(J4-Pin_2)" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(J4-Pin_3)" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U2" pin="6" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(J4-Pin_4)" class="Default">
+      <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U2" pin="10" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(J4-Pin_5)" class="Default">
+      <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U2" pin="12" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R5-Pad1)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R6-Pad1)" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="SCK" class="Default">
+      <node ref="A1" pin="16" pinfunction="SCK_16" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pintype="input"/>
+    </net>
+    <net code="23" name="VDC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN_1" pintype="power_in"/>
+    </net>
+    <net code="24" name="unconnected-(A1-A2-Pad21)" class="Default">
+      <node ref="A1" pin="21" pinfunction="A2_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-A3-Pad22)" class="Default">
+      <node ref="A1" pin="22" pinfunction="A3_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-A6-Pad25)" class="Default">
+      <node ref="A1" pin="25" pinfunction="A6_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-A7-Pad26)" class="Default">
+      <node ref="A1" pin="26" pinfunction="A7_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-AREF-Pad18)" class="Default">
+      <node ref="A1" pin="18" pinfunction="AREF_18" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-D4-Pad7)" class="Default">
+      <node ref="A1" pin="7" pinfunction="D4_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-D5-Pad8)" class="Default">
+      <node ref="A1" pin="8" pinfunction="D5_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-D6-Pad9)" class="Default">
+      <node ref="A1" pin="9" pinfunction="D6_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-D7-Pad10)" class="Default">
+      <node ref="A1" pin="10" pinfunction="D7_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A1-MISO-Pad15)" class="Default">
+      <node ref="A1" pin="15" pinfunction="MISO_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-RX1-Pad2)" class="Default">
+      <node ref="A1" pin="2" pinfunction="RX1_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-SCL/A5-Pad24)" class="Default">
+      <node ref="A1" pin="24" pinfunction="SCL/A5_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-SDA/A4-Pad23)" class="Default">
+      <node ref="A1" pin="23" pinfunction="SDA/A4_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-TX1-Pad1)" class="Default">
+      <node ref="A1" pin="1" pinfunction="TX1_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-VIN-Pad30)" class="Default">
+      <node ref="A1" pin="30" pinfunction="VIN_30" pintype="power_in+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-~{RESET}-Pad3)" class="Default">
+      <node ref="A1" pin="3" pinfunction="~{RESET}_3" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-~{RESET}-Pad28)" class="Default">
+      <node ref="A1" pin="28" pinfunction="~{RESET}_28" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U2-Pad14)" class="Default">
+      <node ref="U2" pin="14" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-Pad15)" class="Default">
+      <node ref="U2" pin="15" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
