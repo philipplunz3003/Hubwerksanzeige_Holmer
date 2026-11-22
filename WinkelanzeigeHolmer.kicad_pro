@@ -543,7 +543,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fertigungsdaten/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
